@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <style>
+        div{
+            margin: 10px;
+        }
+        h2{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="งาน2.html"><button>ไปงาน 2</button></a>
+        <a href="งาน4.html"><button>ไปงาน 4</button></a>
+    </div>
+    <h2>คำนวณค่า BMI</h2>
+    <div>
+        <label for="">น้ำหนัก (กิโลกรัม) :</label>
+        <input type="number" name="" id="weight">
+    </div>
+    <div>
+        <label for="">ส่วนสูง (เซนติเมตร) :</label>
+        <input type="number" name="" id="height">
+    </div>
+    <div>
+        <label for="" id="result"></label>
+    </div>
+    <div>
+        <button onclick="BMI()">OK</button>
+        <button onclick="clearData1()">claer</button>
+    </div>
+    <hr>
+    <h2>คำนวณค่าใช้จ่ายหอพัก</h2>
+    <div>
+        <label for="">ค่าน้ำ (หน่วย) :</label>
+        <input type="number" name="" id="WaterUnit">
+    </div>
+    <div>
+        <label for="">ค่าไฟ (หน่วย) :</label>
+        <input type="number" name="" id="ElectUnit">
+    </div>
+    <div>
+        <label for="">ค่าโทรศัพท์ (นาที) :</label>
+        <input type="number" name="" id="Minute">
+    </div>
+    <div>
+        <label for="" id="Expense"></label>
+    </div>
+    <div>
+        <button onclick="WEM()">OK</button>
+        <button onclick="clearData2()">clear</button>
+    </div>
+    <hr>
+    <h2>คำนวณราคาน้ำแร่</h2>
+    <div>
+        <label for="">จำนวนน้ำแร่ (ขวด) :</label>
+        <input type="number" name="" id="bottle">
+    </div>
+    <div>
+        <label for="" id="price"></label>
+        <br>
+        <label for="" id="total"></label>
+    </div>
+    <div>
+        <button onclick="BC()">OK</button>
+        <button onclick="clearData3()">clear</button>
+    </div>
+    <script src="งาน3.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>คำนวณราคาหนังสือ</title>
+</head>
+<body>
+  <h2>โปรโมชั่น: ซื้อมากกว่า 2 เล่ม และราคารวมเกิน 500 บาท ลด 10%</h2>
+
+  <label>จำนวนหนังสือ: <input type="number" id="bookCount" min="1" value="3" /></label>
+  <button type="button" onclick="createInputs()">เคลียร์</button>
+
+  <div id="inputs"></div>
+  <br />
+  <button type="button" onclick="calculateTotal()">คำนวณราคา</button>
+
+  <div id="result"></div>
+
+  <script src="6_1.js"></script>
+</body>
+</html>
